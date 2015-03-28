@@ -1,0 +1,24 @@
+<div class="gameSelect pageFullContent">
+    <navigationbarwithoutback>{{pageName}}</navigationbarwithoutback>
+    <div class="navigationSpacer"></div>
+    <div class="row contentGrid">
+        <div class="columns small-12">
+            <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+                <li data-ng-repeat="game in games" class="game">
+                    <a ng-href="#showGame/{{game.gameid}}">
+                        <div class="gridContent">
+                            <div class="columns small-10">
+                                <h3>{{game.name}}</h3>
+                                <p>Buzzwords: <span class="highlight">{{game.listName}}</span></p>
+                                <p>Ersteller: <span class="highlight">{{game.creator}}</span></p>
+                            </div>
+                            <div class="columns small-2">
+                                <i class="fa fa-user">{{game.currentPlayersCount}}</i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

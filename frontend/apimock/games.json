@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "gameid": "g1",
+      "name": "MDR Retro",
+      "creator": "Valentin",
+      "currentPlayersCount": "5",
+      "buzzwordListId": "l1"
+    },
+    {
+      "gameid": "g2",
+      "name": "Jour fix Q1",
+      "creator": "Sophia",
+      "currentPlayersCount": "2",
+      "buzzwordListId": "l2"
+    },
+    {
+      "gameid": "g3",
+      "name": "Jour fix Q2",
+      "creator": "Sophia",
+      "currentPlayersCount": "2",
+      "buzzwordListId": "l2"
+    },
+    {
+      "gameid": "g4",
+      "name": "Jour fix Q3",
+      "creator": "Sophia",
+      "currentPlayersCount": "2",
+      "buzzwordListId": "l2"
+    },
+    {
+      "gameid": "g5",
+      "name": "Jour fix Q4",
+      "creator": "Sophia",
+      "currentPlayersCount": "2",
+      "buzzwordListId": "l2"
+    }
+  ]
+}

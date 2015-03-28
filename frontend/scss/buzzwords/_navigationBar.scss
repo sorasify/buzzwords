@@ -1,0 +1,33 @@
+.top-bar{
+  .fa{
+    font-size: rem-calc(20);
+    margin: rem-calc(10 10 10 0);
+    color: #FFFFFF;
+  }
+
+  .fa-check-square-o{
+    font-size: rem-calc(20);
+    margin: rem-calc(10 0 10 10);
+    color: #FFFFFF;
+  }
+
+  .name a, .name{
+    font-size: rem-calc(15);
+    color: #FFFFFF;
+  }
+
+  .back {
+    right: rem-calc(40);
+  }
+
+  max-width: 75rem !important;
+  margin: 0 auto 0 auto !important;
+}
+
+.navigationBar{
+  background-color: #333333;
+}
+
+.navigationSpacer{
+  height: rem-calc(45);
+}

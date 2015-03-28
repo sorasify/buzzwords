@@ -1,0 +1,23 @@
+.contentGrid{
+  padding-top: rem-calc(10);
+  .columns{
+    padding-left: rem-calc(10);
+    padding-right: rem-calc(10);
+  }
+
+  li{
+    padding: rem-calc(5);
+  }
+
+  [class*="block-grid-"]{
+    margin: 0;
+  }
+
+  .gridContent{
+    background-color: #EEEEEE;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    padding: rem-calc(5);
+  }
+}

@@ -1,0 +1,51 @@
+<div class="showGame pageFullContent">
+    <div ng-controller="BackController">
+        <navigationbar on-back="backDialog()">{{pageName}}</navigationbar>
+    </div>
+    <div class="navigationSpacer"></div>
+    <div class="row contentList">
+        <div class="columns small-12 medium-6">
+
+            <ul class="list">
+                <li class="head"><i class="fa fa-plus-circle"></i> Spieler Optionen</li>
+                <li>
+                    <label>Spieler Name
+                        <input type="text" placeholder="Dein Name im Spiel." ng-model="wordDesc"/>
+                    </label>
+                </li>
+                <li>
+                    <a href ng-click="addWord()" class="button"><i class="fa fa-plus-circle"></i> Beitreten</a>
+                </li>
+                <li class="head"><i class="fa fa-plus-circle"></i> Spielleiter Optionen</li>
+                <li>
+                    <a href="#play/{{game.gameid}}" class="button"><i class="fa fa-gamepad"></i> Spiel Starten</a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="head"><i class="fa fa-list-ul"></i> Buzzword Liste: <span class="highlight">{{game.listName}}</span></li>
+            </ul>
+            <accordion close-others="oneAtATime" >
+                <accordion-group is-open="isopen" data-ng-repeat="word in game.words">
+                    <accordion-heading>
+                        <i class="fa fa-comments-o"></i> {{word.word}} <i class="right" ng-class="{'fa fa-chevron-down': !isopen, 'fa fa-chevron-up': isopen}"></i>
+                    </accordion-heading>
+                    {{word.desc}}
+                </accordion-group>
+            </accordion>
+
+
+        </div>
+        <div class="columns small-12 medium-6">
+            <ul class="list" data-ng-repeat="player in game.players">
+                <li class="head"><i class="fa fa-user"></i> {{player.name}}
+                    <ul class="inlinelist">
+                        <li data-ng-repeat="word in player.words">
+                            <i class="fa fa-comments-o"></i> {{word.word}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

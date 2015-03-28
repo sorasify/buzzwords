@@ -1,0 +1,98 @@
+{
+  "buzzwordLists": [
+    {
+      "listId": "l1",
+      "name": "Thomas + MDR Buzzwords",
+      "creator": "Valentin",
+      "words": [
+        {
+          "word": "Knopf dran",
+          "desc": "Einfach mal was fertig machen!"
+        },
+        {
+          "word": "Rocket Sience",
+          "desc": "Eigentlich ganz einfach."
+        },
+        {
+          "word": "In die gleiche Kerbe schlagen.",
+          "desc": "Immer wieder der gleiche ..."
+        },
+        {
+          "word": "Ziemlich cool",
+          "desc": "Test"
+        },
+        {
+          "word": "Verfeinern",
+          "desc": "Was gutes noch besser machen."
+        },
+        {
+          "word": "Das A Wort",
+          "desc": "Nicht was ihr denkt ;)"
+        },
+        {
+          "word": "Herausforderung",
+          "desc": "Es gibt keine Probleme."
+        },
+        {
+          "word": "Agil",
+          "desc": "Alles ist und wird Agil."
+        },
+        {
+          "word": "Kickoff",
+          "desc": "Der Beginn allen Übels"
+        },
+        {
+          "word": "Mittagessen",
+          "desc": "Die unendliche Geschichte"
+        }
+      ]
+    },
+    {
+      "listId": "l2",
+      "name": "Lustige Neue Sybit Wörter",
+      "creator": "Sophia",
+      "words": [
+        {
+          "word": "Lead",
+          "desc": "Verkaufschance"
+        },
+        {
+          "word": "Opportunity",
+          "desc": "Sowas wie Lead nur besser."
+        },
+        {
+          "word": "Workforce Manager",
+          "desc": "Ganz wichtig!"
+        },
+        {
+          "word": "Principal",
+          "desc": "Fachidiot ;)"
+        },
+        {
+          "word": "Purple",
+          "desc": "Beste Farbe ever!"
+        },
+        {
+          "word": "Staffing",
+          "desc": "Siehe Workforce Manager"
+        },
+        {
+          "word": "Touchpoints",
+          "desc": "Vorsicht wegen Sexueler Belästigung"
+        },
+        {
+          "word": "Portfolio",
+          "desc": "Wir können alles nur nicht Hochdeutsch"
+        },
+        {
+          "word": "Customer Journey",
+          "desc": "Dem Kunden alles andrehen."
+        },
+        {
+          "word": "Teaming",
+          "desc": "Toll ein ander machts."
+        }
+      ]
+    }
+  ]
+}

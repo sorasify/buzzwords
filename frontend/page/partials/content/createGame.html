@@ -1,0 +1,38 @@
+<div class="createGame pageFullContent">
+    <div ng-controller="BackController">
+        <navigationbar on-back="backDialog()">{{pageName}}</navigationbar>
+    </div>
+    <div class="navigationSpacer"></div>
+    <div class="row contentList">
+        <div class="columns small-12 medium-6">
+            <ul class="list">
+                <li class="head"><i class="fa fa-list-ul"></i> Bereits vorhandene Buzzword Listen</li>
+                <li data-ng-repeat="list in buzzwordLists">
+                    <input id="checkbox{{$index}}" type="radio" name="buzzwordlist"><label for="checkbox{{$index}}">{{list.name}}</label>
+                </li>
+            </ul>
+        </div>
+        <div class="columns small-12 medium-6">
+            <ul class="list">
+                <li class="head"><i class="fa fa-clipboard"></i> Spieldaten</li>
+                <li>
+                    <label>Spielname
+                        <input type="text" placeholder="Vertriebsmeeting, Jourfix..." />
+                    </label>
+                </li>
+                <li>
+                    <label>Dein Name
+                        <input type="text" placeholder="Hans, Jane..." />
+                    </label>
+                </li>
+            </ul>
+
+            <div class="panel">
+                <h5>Optionen</h5>
+                <a href="#showGame" class="button"><i class="fa fa-gamepad"></i> Spiel Erstellen</a>
+                <a href="#newList" class="button"><i class="fa fa-list-ul"></i> Neue Liste Erstellen</a>
+            </div>
+        </div>
+
+    </div>
+</div>

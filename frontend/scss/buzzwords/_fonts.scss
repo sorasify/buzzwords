@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "gothic_normal";
+  src: url("/assets/fonts/GOTHIC.TTF");
+}
+
+@font-face {
+  font-family: "gothic_bold";
+  src: url("/assets/fonts/GOTHICB.TTF");
+}
+
+h1 {
+  color: red;
+}
+
+body, .accordion span{
+  font-family: gothic_normal, arial, helvetica;
+  color: #1a1a1a;
+}
+
+.highlight{
+  font-family: gothic_bold, arial, helvetica;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover, a:active, a:visited{
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+a.button {
+  color: #EEEEEE;
+}

@@ -1,0 +1,31 @@
+
+
+<div class="createList pageFullContent">
+    <div ng-controller="BackController">
+        <navigationbar on-back="backDialog()">{{pageName}}</navigationbar>
+    </div>
+    <div class="navigationSpacer"></div>
+    <div class="row contentList">
+        <div class="columns small-12 medium-6">
+            <ul class="list" data-ng-repeat="player in game.players | limitTo: 1">
+                <li class="head"><i class="fa fa-user"></i> {{player.name}}
+                    <ul class="inlinelist">
+                        <li data-ng-repeat="word in player.words">
+                            <input id="checkbox{{$index}}" type="checkbox" name="buzzwordlist"><label for="checkbox{{$index}}">{{word.word}}</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="columns small-12 medium-6">
+            <ul class="list">
+                <li class="head"><i class="fa fa-users"></i> Andere Spieler
+                </li>
+                <li data-ng-repeat="player in game.players">
+                    <i class="fa fa-user"></i> {{player.name}}
+                    <span class="right">{{getScoreForPlayer(player)}}/{{getMaxScore()}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

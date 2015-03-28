@@ -1,0 +1,47 @@
+<div class="createList pageFullContent">
+    <div ng-controller="BackController">
+        <navigationbar on-back="backDialog()">{{pageName}}</navigationbar>
+    </div>
+    <div class="navigationSpacer"></div>
+    <div class="row contentList">
+        <div class="columns small-12 medium-6">
+            <ul class="list">
+                <li class="head"><i class="fa fa-clipboard"></i> Daten zur Erstellung der Liste</li>
+                <li>
+                    <label>Listenname
+                        <input type="text" placeholder="Lustige Sybit Worte..." />
+                    </label>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="head"><i class="fa fa-plus-circle"></i> Wort Hinzufügen</li>
+                <li>
+                    <label>Wort
+                        <input type="text" placeholder="Quickwin" ng-model="wordName"/>
+                    </label>
+                </li>
+                <li>
+                    <label>Beschreibung
+                        <input type="text" placeholder="Viel zu hohlen ohne viel Aufwand." ng-model="wordDesc"/>
+                    </label>
+                </li>
+                <li>
+                    <a href ng-click="addWord()" class="button"><i class="fa fa-plus-circle"></i> Wort hinzufügen</a>
+                </li>
+            </ul>
+        </div>
+        <div class="columns small-12 medium-6">
+            <ul class="list">
+                <li class="head"><i class="fa fa-list-ul"></i> Bisher vorhandene Wörter</li>
+            </ul>
+            <accordion close-others="oneAtATime">
+                <accordion-group is-open="isopen" data-ng-repeat="(key, word) in words">
+                    <accordion-heading>
+                        <i class="fa fa-comments-o"></i> {{key}} <i class="right" ng-class="{'fa fa-chevron-down': !isopen, 'fa fa-chevron-up': isopen}"></i>
+                    </accordion-heading>
+                    {{word}}
+                </accordion-group>
+            </accordion>
+        </div>
+    </div>
+</div>

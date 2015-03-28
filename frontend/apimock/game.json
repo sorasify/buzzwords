@@ -1,0 +1,140 @@
+{
+  "game": {
+    "gameid": "g1",
+    "status": "ready",
+    "name": "MDR Retro",
+    "buzzwordListId": "l1",
+    "players": [
+      {
+        "name": "Valentin",
+        "status": "creator",
+        "words": [
+          {
+            "word": "Knopf dran",
+            "status": "unchecked"
+          },
+          {
+            "word": "Ziemlich cool",
+            "status": "unchecked"
+          },
+          {
+            "word": "In die Kerbe schlagen.",
+            "status": "unchecked"
+          },
+          {
+            "word": "Kickoff",
+            "status": "unchecked"
+          },
+          {
+            "word": "Mittagessen",
+            "status": "unchecked"
+          }
+        ]
+      },
+      {
+        "name": "Sophia",
+        "status": "player",
+        "words": [
+          {
+            "word": "Knopf dran",
+            "status": "unchecked"
+          },
+          {
+            "word": "Agil",
+            "status": "unchecked"
+          },
+          {
+            "word": "In die Kerbe schlagen.",
+            "status": "unchecked"
+          },
+          {
+            "word": "Kickoff",
+            "status": "unchecked"
+          },
+          {
+            "word": "Mittagessen",
+            "status": "unchecked"
+          }
+        ]
+      },
+      {
+        "name": "Wolf",
+        "status": "player",
+        "words": [
+          {
+            "word": "Knopf dran",
+            "status": "unchecked"
+          },
+          {
+            "word": "Ziemlich cool",
+            "status": "unchecked"
+          },
+          {
+            "word": "In die Kerbe schlagen.",
+            "status": "unchecked"
+          },
+          {
+            "word": "Verfeinern",
+            "status": "unchecked"
+          },
+          {
+            "word": "Mittagessen",
+            "status": "unchecked"
+          }
+        ]
+      },
+      {
+        "name": "Daniel",
+        "status": "player",
+        "words": [
+          {
+            "word": "Knopf dran",
+            "status": "unchecked"
+          },
+          {
+            "word": "Ziemlich cool",
+            "status": "unchecked"
+          },
+          {
+            "word": "In die Kerbe schlagen.",
+            "status": "unchecked"
+          },
+          {
+            "word": "Kickoff",
+            "status": "unchecked"
+          },
+          {
+            "word": "Verfeinern",
+            "status": "unchecked"
+          }
+        ]
+      },
+      {
+        "name": "Christian",
+        "status": "player",
+        "words": [
+          {
+            "word": "Agil",
+            "status": "unchecked"
+          },
+          {
+            "word": "Ziemlich cool",
+            "status": "unchecked"
+          },
+          {
+            "word": "In die Kerbe schlagen.",
+            "status": "unchecked"
+          },
+          {
+            "word": "Kickoff",
+            "status": "unchecked"
+          },
+          {
+            "word": "Mittagessen",
+            "status": "unchecked"
+          }
+        ]
+      }
+    ]
+  }
+}
